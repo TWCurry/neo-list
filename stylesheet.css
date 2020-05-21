@@ -3,6 +3,9 @@ body{
     color: white;
     background-color: rgb(31, 29, 36);
 }
+a{
+    color: rgb(116, 1, 116);
+}
 #main{
     border: 1px solid white;
     display: block;
@@ -10,6 +13,19 @@ body{
     left: 10%;
     right: 10%;
     margin: auto;
-    height: 10em;
-    border-radius: 5px ;
+    /* height: 10em; */
+    border-radius: 15px ;
+    top: 10em;
+    background-color: rgb(11, 23, 35);
+}
+#title{
+    position: fixed;
+    left: 10%;
+    right: 10%;
+    margin: auto;
+    text-align: center;
+}
+#loader{
+    display: block;
+    margin: auto;
 }

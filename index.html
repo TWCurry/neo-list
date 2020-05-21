@@ -4,14 +4,18 @@
         <title>Near-Earth Object List</title>
         <link rel="icon" href="img/icon.png" type="image/png" sizes="16x16">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="script.js"></script>
     </head>
     <body>
-        <div class="centre">
+        <div id="title">
             <h1>Near Earth Object list</h1>
-            Listing asteroids and other space stuff flying past Earth!
+            Listing asteroids and other space stuff flying past Earth!<br>
+            Created by <a href="https://twitter.com/tommyc4321">Thomas Curry</a>
         </div>
         
-        <div id="main"></div>
+        <div id="main">
+            <img src="img/loader.gif" id="loader">
+        </div>
     </body>
 </html>
